@@ -1,0 +1,141 @@
+body {
+    background-color: #FAEF9B;
+    font-family: 標楷體, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+u {
+    color: rgb(155, 14, 14);
+    background-color: rgb(160, 204, 253);
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+table {
+    width: 70%;
+    height: 300px;
+    margin: 0 auto;
+    text-align: center;
+    border: #365486 2px solid;
+}
+
+form {
+    /*background-color: #F1E4C3;*/
+    /*因為目前和image同一層，因此無法讀取，需先跳出此層資料夾後，才有辦法正確讀取*/
+    background-image: url("../images/adam-kool-ndN00KmbJ1c-unsplash.jpg");
+    background-size: cover;
+
+    color: black;
+    padding: 12px 0;
+    border-radius: 20px;
+    border: #C6A969 3px solid;
+    margin-top: 6px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+input,
+textarea,
+label,
+button {
+    margin: 12px 0px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+button {
+    background-color: #C1F2B0;
+    border-radius: 20px;
+}
+
+a {
+    color: blue;
+}
+
+a:hover {
+    color: #86B6F6;
+}
+
+a:active {
+    color: #000;
+}
+
+@media screen and (max-width: 1024px) {
+    form {
+        width: 80%;
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    form {
+        width: 100%;
+        font-size: 15px;
+    }
+}
+
+.title {
+    background-color: #D5F0C1;
+    color: #365486;
+    font-size: 32px;
+    font-weight: bold;
+    border-radius: 15px;
+    margin: 24px 24px 24px 24px;
+    text-align: center;
+    padding: 12px;
+}
+
+.eng-title {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.sub-title {
+    /*inline、block、inline-block*/
+    display: inline-block;
+    background-color: #E6BAA3;
+    color: #e63420;
+    font-size: 25px;
+    border: black 3px solid;
+    margin: 12px;
+    padding: 10px;
+}
+
+.sub-img {
+    background-color: white;
+    padding: 3px;
+    width: 30%;
+}
+
+.table_head {
+    background-color: #86B6F6;
+}
+
+.table_body {
+    background-color: #EEF5FF;
+}
+
+#info {
+    background-color: #e0af19;
+    padding: 10px;
+}
+
+#container {
+    padding: 1rem;
+}
+
+#image_gym {
+    text-align: center;
+    background-color: #AAD9BB;
+    padding: 8px 0;
+}
+
+#video {
+    text-align: center;
+    padding: 1px;
+    border: #E6BAA3 2px
+}
+
+#post-form {
+    text-align: center;
+}
