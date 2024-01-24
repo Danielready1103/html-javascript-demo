@@ -22,9 +22,9 @@ table {
 form {
     /*background-color: #F1E4C3;*/
     /*因為目前和image同一層，因此無法讀取，需先跳出此層資料夾後，才有辦法正確讀取*/
-    background-image: url("../images/adam-kool-ndN00KmbJ1c-unsplash.jpg");
-    background-size: cover;
-
+    /*background-image: url("../images/adam-kool-ndN00KmbJ1c-unsplash.jpg");*/
+    /*background-size: cover;*/
+    background-color: #bdfaad;
     color: black;
     padding: 12px 0;
     border-radius: 20px;
@@ -32,6 +32,7 @@ form {
     margin-top: 6px;
     width: 60%;
     margin: 0 auto;
+    text-align: center;
 }
 
 input,
